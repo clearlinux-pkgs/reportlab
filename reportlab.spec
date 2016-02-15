@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.2.0
-Release  : 2
+Release  : 3
 URL      : https://pypi.python.org/packages/source/r/reportlab/reportlab-3.2.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/r/reportlab/reportlab-3.2.0.tar.gz
 Summary  : The ReportLab Toolkit
