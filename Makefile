@@ -1,5 +1,5 @@
 PKG_NAME := reportlab
-URL := https://pypi.python.org/packages/source/r/reportlab/reportlab-3.3.0.tar.gz
-ARCHIVES :=
+URL := http://pypi.debian.net/reportlab/reportlab-3.4.0.tar.gz
+
 
 include ../common/Makefile.common
