@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.4.0
-Release  : 11
+Release  : 12
 URL      : http://pypi.debian.net/reportlab/reportlab-3.4.0.tar.gz
 Source0  : http://pypi.debian.net/reportlab/reportlab-3.4.0.tar.gz
 Summary  : The Reportlab Toolkit
