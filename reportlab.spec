@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.5.34
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/0f/0b/bce8f4a6641c30889fd82b50665f0f7521d633bfd3360af2c11b8b2200af/reportlab-3.5.34.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0f/0b/bce8f4a6641c30889fd82b50665f0f7521d633bfd3360af2c11b8b2200af/reportlab-3.5.34.tar.gz
 Summary  : The Reportlab Toolkit
@@ -53,6 +53,7 @@ python components for the reportlab package.
 Summary: python3 components for the reportlab package.
 Group: Default
 Requires: python3-core
+Provides: pypi(reportlab)
 
 %description python3
 python3 components for the reportlab package.
@@ -67,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579018603
+export SOURCE_DATE_EPOCH=1583218867
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
