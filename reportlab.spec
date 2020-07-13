@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.5.44
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/98/07/5709d37f517269679d42128650e5f5ab186ad0896472c13e8b430c128eb1/reportlab-3.5.44.tar.gz
 Source0  : https://files.pythonhosted.org/packages/98/07/5709d37f517269679d42128650e5f5ab186ad0896472c13e8b430c128eb1/reportlab-3.5.44.tar.gz
 Summary  : The Reportlab Toolkit
