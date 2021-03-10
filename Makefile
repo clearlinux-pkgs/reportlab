@@ -1,5 +1,5 @@
 PKG_NAME := reportlab
-URL = https://files.pythonhosted.org/packages/81/b3/7aef68dceb7efe1a023ad1e882671c64d694b40288cd8cd2c10e75d05eb1/reportlab-3.5.64.tar.gz
+URL = https://files.pythonhosted.org/packages/e8/5a/f88ad0320aba191c89110f015f2d5c4b672ff094c32e5c8c20286988aca3/reportlab-3.5.65.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
