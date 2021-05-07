@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.5.67
-Release  : 66
+Release  : 67
 URL      : https://files.pythonhosted.org/packages/2a/02/078c875d81f231fc11ecda3158a2e2cfccc390a534c316e2524db007e245/reportlab-3.5.67.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2a/02/078c875d81f231fc11ecda3158a2e2cfccc390a534c316e2524db007e245/reportlab-3.5.67.tar.gz
 Summary  : The Reportlab Toolkit
