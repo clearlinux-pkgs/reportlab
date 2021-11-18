@@ -4,7 +4,7 @@
 #
 Name     : reportlab
 Version  : 3.6.2
-Release  : 76
+Release  : 77
 URL      : https://files.pythonhosted.org/packages/ae/4e/5777c95f93d85854cc9da0627636d2c3982be55a7b9cfc34d1a53e9a9c99/reportlab-3.6.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ae/4e/5777c95f93d85854cc9da0627636d2c3982be55a7b9cfc34d1a53e9a9c99/reportlab-3.6.2.tar.gz
 Summary  : The Reportlab Toolkit
@@ -13,9 +13,10 @@ License  : BSD-3-Clause LGPL-2.0 OFL-1.0
 Requires: reportlab-license = %{version}-%{release}
 Requires: reportlab-python = %{version}-%{release}
 Requires: reportlab-python3 = %{version}-%{release}
-Requires: Pillow
 BuildRequires : Pillow
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(pillow)
+BuildRequires : pypi(rlpycairo)
 BuildRequires : python3-dev
 
 %description
@@ -45,6 +46,7 @@ Group: Default
 Requires: python3-core
 Provides: pypi(reportlab)
 Requires: pypi(pillow)
+Requires: pypi(rlpycairo)
 
 %description python3
 python3 components for the reportlab package.
@@ -59,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634135347
+export SOURCE_DATE_EPOCH=1637264460
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
